@@ -1,0 +1,22 @@
+<?php
+/**
+ * @file
+ * Code for the Development feature.
+ */
+
+/**
+ * Implements hook_page_alter().
+ */
+function kmt_development_page_alter(&$page) {
+  global $base_url;
+  
+  if (file_exists(DRUPAL_ROOT . '/build-number.txt')) {
+    $file = file(DRUPAL_ROOT . '/build-number.txt');
+        $content = '';
+    foreach($file AS $row)
+    {
+      $content .= $row.'<br>';
+    }
+    $page['footer'] = array('#markup' => $content);
+  }
+}
