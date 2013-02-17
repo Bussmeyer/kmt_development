@@ -10,4 +10,5 @@ dependencies[] = diff
 dependencies[] = features
 dependencies[] = features_tools
 dependencies[] = hacked
+dependencies[] = masquerade
 features[features_api][] = api:1
