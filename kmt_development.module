@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the Development feature.
+ * Code for the development feature.
  */
 
 /**
@@ -12,7 +12,7 @@ function kmt_development_page_alter(&$page) {
   
   if (file_exists(DRUPAL_ROOT . '/build-number.txt')) {
     $file = file(DRUPAL_ROOT . '/build-number.txt');
-        $content = '';
+        $content = 'Build: ';
     foreach($file AS $row)
     {
       $content .= $row.'<br>';
