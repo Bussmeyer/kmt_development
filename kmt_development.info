@@ -11,3 +11,10 @@ dependencies[] = features
 dependencies[] = hacked
 dependencies[] = masquerade
 features[features_api][] = api:1
+
+
+; Information added by drush on 2013-06-17
+version = "unknown"
+project = "kmt_development"
+datestamp = "1371500447"
+

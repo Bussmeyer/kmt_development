@@ -8,3 +8,5 @@ projects[diff][subdir] = development
 projects[features][subdir] = development
 projects[hacked][subdir] = development
 projects[masquerade][subdir] = development
+projects[simplehtmldom][subdir] = development
+
