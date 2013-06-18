@@ -3,13 +3,9 @@ core = 7.x
 package = kmt foundation
 version = 7.x-1.0
 project = ktm_development
-dependencies[] = coder
 dependencies[] = devel
-dependencies[] = devel_themer
 dependencies[] = diff
 dependencies[] = features
-dependencies[] = hacked
-dependencies[] = masquerade
 features[features_api][] = api:1
 
 
